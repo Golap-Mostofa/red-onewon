@@ -9,8 +9,9 @@ import Leach from './components/Leach/Leach';
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Navbar></Navbar>}></Route>
+        {/* <Route path='/' element={}></Route> */}
        <Route path='/lunch' element={<Leach></Leach>}></Route>
       </Routes>
     </div>
