@@ -1,0 +1,13 @@
+ .lunch-container div{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        background-color: bisque;
+}
+.star{
+    width: 20px;height: 20px;
+    color: goldenrod;
+}
+    .lunch-container div:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }

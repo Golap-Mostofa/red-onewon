@@ -17,8 +17,8 @@ const lunchs = [
 
 const Leach = () => {
     return (
-        <div className='row'>
-           <h1 className='text-center'>Quick Lunch Ideas That Will Turn </h1>
+        <div className='row mt-5'>
+           <h1 className='text-center text-primary m-4'>Quick Lunch Ideas That Will Turn </h1>
             {
                 lunchs.map(lunch=><SignelLunch
                 key={lunch.id}
