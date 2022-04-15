@@ -1,7 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import { Link, useNavigate } from 'react-router-dom';
+import auth from '../../Firebase.init';
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 const Login = () => {
+    const navitate = useNavigate()
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    if(user){
+        navitate('/')
+    }
+
     return (
         <div className='signUp-form mt-5'>
         <h1 className='text-center text-primary mb-3'>Pleash Login</h1>
@@ -25,7 +32,7 @@ const Login = () => {
             </>
            
         </form>
-           
+        <button onClick={()=>signInWithGoogle()}>Google</button>
         
     </div>
     );
