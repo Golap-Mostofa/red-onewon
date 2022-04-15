@@ -1,0 +1,15 @@
+.banner-part{
+    position: relative
+}
+.bottomleft {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    width: 50%;
+  }
+  .heading{
+    position: absolute;
+      top: 20px;
+      left: 17%;
+  }
+  
