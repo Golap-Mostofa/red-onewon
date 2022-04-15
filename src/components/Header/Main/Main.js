@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.css'
 import banar from '../../../images/bannerbackground.png'
+import Product from '../Product/Product';
 
 const Main = () => {
     return (
@@ -13,7 +14,7 @@ const Main = () => {
                     <button className="rounded bg-success" id="button-addon2">Search</button>
                 </div>
             </div>
-           
+           <Product></Product>
         </div>
     );
 };
