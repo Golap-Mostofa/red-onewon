@@ -3,6 +3,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Header/Navbar/Navbar';
 import Leach from './components/Leach/Leach';
+import Deaner from './components/Deaner/Deaner';
 
 
 
@@ -11,8 +12,8 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Routes>
-        {/* <Route path='/' element={}></Route> */}
        <Route path='/lunch' element={<Leach></Leach>}></Route>
+       <Route path='/deaner' element={<Deaner></Deaner>}></Route>
       </Routes>
     </div>
   );

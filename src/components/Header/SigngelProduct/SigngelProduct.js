@@ -22,7 +22,7 @@ const SigngelProduct = () => {
           
          {
             breakfasts.map(breakfast=><FastFood
-           
+           key={breakfast.id}
             breakfast={breakfast}
             
             ></FastFood>)

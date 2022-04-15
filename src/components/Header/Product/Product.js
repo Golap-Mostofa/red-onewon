@@ -6,9 +6,9 @@ const Product = () => {
     return (
         <div>
             <div className='d-flex justify-content-center align-content-center'>
-                <Link className='text-decoration-none m-3' to={'/1'}>brackfast</Link>
+                <Link className='text-decoration-none m-3' to={'/'}>brackfast</Link>
                 <Link className='text-decoration-none m-3' to={'/lunch'}>Leach</Link>
-                <Link className='text-decoration-none m-3' to={'/2'}>Denar</Link>
+                <Link className='text-decoration-none m-3' to={'/deaner'}>Denar</Link>
 
             </div>
             <SigngelProduct></SigngelProduct>
