@@ -12,12 +12,13 @@ const Navbar = () => {
             </div>
             <div className='d-flex font-weight-bold'>
                 <Link className='text-decoration-none text-white me-5 font-weight-bold' to='/'>Home</Link>
-                <Link className='text-decoration-none text-white me-5 font-weight-bold' to='/'>Login</Link>
-                <Link className='text-decoration-none text-white me-5 font-weight-bold' to='/'>Sign up</Link>
+                <Link className='text-decoration-none text-white me-5 font-weight-bold' to='/Login'>Login</Link>
+                <Link className='text-decoration-none text-white me-5 font-weight-bold' 
+                to='/signUp'>Sign up</Link>
 
             </div>
         </nav>
-        <Main></Main>
+       
     </div>
     );
 };
