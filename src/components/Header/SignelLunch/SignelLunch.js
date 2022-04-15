@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SignelLunch = ({lunch}) => {
+    
     const {detail,name,price,img} = lunch
     return (
         <div className='col-lg-4 '>
